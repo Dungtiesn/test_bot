@@ -25,7 +25,7 @@ BUG NEED TO FIX:
   
   - Launch file localization can not get the map's path --> need to do manually
   
-  - When localization map will not auto update <Nav publish cost_map not map>  --> need to do manually
+  - When localization map will not auto update <Nav publish cost_map not map> --> need to do manually
   
   - When running real robot ros2_control: control_manager only get data from adruino hardware, need to add drive to work with another SoC 
 
