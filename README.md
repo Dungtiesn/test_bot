@@ -23,9 +23,9 @@ BUG NEED TO FIX:
 
   - When running slam_toolbox Nav2 will not response correctly 
   
-  - Launch file localization can not get the map's path need to do manually
+  - Launch file localization can not get the map's path --> need to do manually
   
-  - When localization map will not auto update need to do manually
+  - When localization map will not auto update --> need to do manually
   
   - When running real robot ros2_control: control_manager only get data from adruino hardware, need to add drive to work with another SoC 
 
