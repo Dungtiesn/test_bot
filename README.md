@@ -1,7 +1,23 @@
-## Robot Package Template
+Launch simulation:
 
-This is a GitHub template. You can make your own copy by clicking the green "Use this template" button.
+  #Always source first
+    source install/setup.bash
+  #Launch gazebo
+    ros2 launch test_bot launch_sim.launch.py world:=<path_world>
+  #Launch rviz
+    ros2 launch test_bot rviz_launch.launch.py use_sim_time:=true   
+  #Launch slam_toolbox to create a world
+    ros2 launch test_bot online_async_launch.py use_sim_time:=true  
+  #Launch localization if you already had a map
+    ros2 launch test_bot localization_launch.py map:=<path_map> use_sim_time:=true 
+  #Launch nav2
+    ros2 launch test_bot navigation_launch.py use_sim_time:=true
+   
+   
+TODO: 
+  -When running slam_toolbox Nav2 will not response
 
-It is recommended that you keep the repo/package name the same, but if you do change it, ensure you do a "Find all" using your IDE (or the built-in GitHub IDE by hitting the `.` key) and rename all instances of `my_bot` to whatever your project's name is.
 
-Note that each directory currently has at least one file in it to ensure that git tracks the files (and, consequently, that a fresh clone has direcctories present for CMake to find). These example files can be removed if required (and the directories can be removed if `CMakeLists.txt` is adjusted accordingly).
+
+  
+
