@@ -1866,8 +1866,8 @@
       <pose>1.83869 6.32119 0 0 -0 0</pose>
     </model>
     <state world_name='default'>
-      <sim_time>99 354000000</sim_time>
-      <real_time>99 907512772</real_time>
+      <sim_time>0</sim_time>
+      <real_time>0</real_time>
       <wall_time>1680698615 616024646</wall_time>
       <iterations>99354</iterations>
       <model name='Maze_1'>
