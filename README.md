@@ -19,7 +19,7 @@ Launch simulation:
    
    
    
-BUG NEED TO FIX: 
+TO DO: 
 
   - When running slam_toolbox Nav2 will not response correctly 
   
